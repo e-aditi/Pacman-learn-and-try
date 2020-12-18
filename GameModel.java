@@ -65,11 +65,11 @@ public class GameModel extends JPanel implements ActionListener {
     }
 
     private void loadImages() {
-    	down = new ImageIcon("C:\\Users\\user\\Documents\\java program files\\Pacman_game\\images\\down.gif").getImage();
-    	up = new ImageIcon("C:\\Users\\user\\Documents\\java program files\\Pacman_game\\images\\up.gif").getImage();
-    	left = new ImageIcon("C:\\Users\\user\\Documents\\java program files\\Pacman_game\\images\\left.gif").getImage();
-    	right = new ImageIcon("C:\\Users\\user\\Documents\\java program files\\Pacman_game\\images\\right.gif").getImage();
-        ghost = new ImageIcon("C:\\Users\\user\\Documents\\java program files\\Pacman_game\\images\\ghost.gif").getImage();
+    	down = new ImageIcon("imagepath").getImage();
+    	up = new ImageIcon("imagepath").getImage();
+    	left = new ImageIcon("imagepath").getImage();
+    	right = new ImageIcon("imagepath").getImage();
+        ghost = new ImageIcon("imagepath").getImage();
     }
 
     private void initVariables() {
